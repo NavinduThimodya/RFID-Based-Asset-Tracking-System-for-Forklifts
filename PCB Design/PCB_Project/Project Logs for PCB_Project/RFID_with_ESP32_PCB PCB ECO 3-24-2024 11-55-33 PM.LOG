@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=U_Power_Circuit Member=C?
+Change Component Footprint: Designator=C1 Old Footprint=FP-C0805C-DN-MFG New Footprint=FP-C0805C-DN-IPC_B
+Add Net: Net with name "GND" already exists

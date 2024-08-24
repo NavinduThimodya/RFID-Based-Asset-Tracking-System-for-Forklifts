@@ -1,0 +1,16 @@
+Added Component: Designator=TP1(KSTN-5003)
+Added Component: Designator=TP2(KSTN-5010_V)
+Added Component: Designator=TP?(KSTN-5003)
+Added Component: Designator=TP?(KSTN-5003)
+Added Component: Designator=TP?(KSTN-5003)
+Added Component: Designator=TP?(KSTN-5003)
+Added Component: Designator=TP?(KSTN-5003)
+Add Pin To Net: Unknown Pin: Pin TP1-1
+Add Pin To Net: Unknown Pin: Pin TP2-1
+Add Class Member: Failed to add class member : Component TP1 TX1_POST
+Add Class Member: Failed to add class member : Component TP2 TGND
+Add Class Member: Failed to add class member : Component TP? 5003
+Add Class Member: Failed to add class member : Component TP? 5003
+Add Class Member: Failed to add class member : Component TP? 5003
+Add Class Member: Failed to add class member : Component TP? 5003
+Add Class Member: Failed to add class member : Component TP? 5003

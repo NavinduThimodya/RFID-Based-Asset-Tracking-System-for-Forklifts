@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=OSCIN Pin=Y1-1
+Removed Pin From Net: NetName=GND Pin=Y1-2
+Removed Pin From Net: NetName=OSCOUT Pin=Y1-3
+Removed Pin From Net: NetName=GND Pin=Y1-4
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Added Pin To Net: NetName=OSCIN Pin=Y1-1
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Pin To Net: NetName=OSCOUT Pin=Y1-3
+Added Pin To Net: NetName=GND Pin=Y1-4

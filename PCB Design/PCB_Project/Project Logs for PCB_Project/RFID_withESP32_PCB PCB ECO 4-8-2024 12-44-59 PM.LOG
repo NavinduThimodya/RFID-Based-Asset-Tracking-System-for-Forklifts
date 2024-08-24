@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=Y? Old Footprint=FP-ABM3B-MFG New Footprint=FP-ABM11-14X-MFG
+Change Component Comment : Designator=Y? Old Comment=ABM3B-27.120MHZ-10-D2H-T New Comment=ABM11-142-27.120MHZ-T3
+Change Managed Component Library Link : Designator=Y? Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=B6924B64-4B77-4E08-8673-CE51BEC3E638 New ItemGUID=971B7B5D-F0B0-4895-8B20-2F1DE8729C8A Old RevisionGUID=96EFD6A4-A7F3-49DF-849D-D41DBADE9B2A New RevisionGUID=68865DB5-4843-4BFD-B72F-97D7D54D1092
+Change component parameters: Designator = "Y?" ("Y?"); Footprint = "FP-ABM3B-MFG"; UniqueID = "\HSNKYAXR\AOTGCYAH" ("\HSNKYAXR\AOTGCYAH")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "40R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency"; Value = "27.12MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency Stability"; Value = "10ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency Tolerance"; Value = "10ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.02inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.081inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Load Capacitance"; Value = "8pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-20°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.065inch"; VariantName = "[No Variations]"

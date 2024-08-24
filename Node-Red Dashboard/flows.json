@@ -1,0 +1,474 @@
+[
+    {
+        "id": "fb7c487202fe7137",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "54c544fd5aec6b2b",
+        "type": "mqtt in",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "topic": "210610H-Details",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "98471925428468bd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 480,
+        "wires": [
+            [
+                "9db9b824b38e218b",
+                "4e99d5350178ae19"
+            ]
+        ]
+    },
+    {
+        "id": "9db9b824b38e218b",
+        "type": "debug",
+        "z": "fb7c487202fe7137",
+        "name": "Messages",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d3265a990f8f0722",
+        "type": "mqtt in",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "topic": "210610H-CardDetails",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "98471925428468bd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 580,
+        "wires": [
+            [
+                "a5096204d1124f26",
+                "d74d5ddb65c79cf9"
+            ]
+        ]
+    },
+    {
+        "id": "a5096204d1124f26",
+        "type": "function",
+        "z": "fb7c487202fe7137",
+        "name": "Check Card Details",
+        "func": "if (msg.payload == \"23c8ba36\"){ \n    return{\n        payload:\"Samsung TVs\",\n    };\n}\nelse if (msg.payload == \"e39ab014\"){\n    return{\n        payload:\"Samsung Audio sets\"\n    }\n}\nelse if (msg.payload == \"334102aa\"){\n    return{\n        payload:\"Panasonic Audio Sets\"\n    }\n}\nelse if (msg.payload == \"f3e41caa\"){\n    return{\n        payload:\"Laptops\"\n    }\n}\nelse{\n    return{\n        payload:msg.payload\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "9db9b824b38e218b",
+                "8999f15935e8dec1",
+                "36de4cb2022c8aed",
+                "bef39e8e30e40bae",
+                "0e53b31a036f03e5"
+            ]
+        ]
+    },
+    {
+        "id": "8999f15935e8dec1",
+        "type": "ui_text",
+        "z": "fb7c487202fe7137",
+        "group": "18c7329fbc9c91da",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Asset",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Georgia,Georgia,serif",
+        "fontSize": "20",
+        "color": "#df5858",
+        "x": 830,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "4e99d5350178ae19",
+        "type": "ui_text",
+        "z": "fb7c487202fe7137",
+        "group": "d49e107d4fa13e2a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "15",
+        "color": "#000000",
+        "x": 570,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b9f5ebdcfbcdd6c0",
+        "type": "ui_gauge",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "group": "0e9e3c4a782e1e1a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Number of Asset Tracked",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 870,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "d74d5ddb65c79cf9",
+        "type": "function",
+        "z": "fb7c487202fe7137",
+        "name": "Gauge function",
+        "func": "var numb = global.get(\"gaugevalue\");\n\nif (msg.payload == \"23c8ba36\" || msg.payload == \"e39ab014\" || msg.payload == \"334102aa\" || msg.payload == \"f3e41caa\"){ \n    numb += 1;\n    global.set(\"gaugevalue\", numb);\n    return{\n        payload:numb,\n    };\n}\n\nelse{\n    return{\n        payload:numb,\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 700,
+        "wires": [
+            [
+                "b9f5ebdcfbcdd6c0",
+                "6687bc460d11f03b"
+            ]
+        ]
+    },
+    {
+        "id": "a9631340adf541fd",
+        "type": "change",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gaugevalue",
+                "pt": "global",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8608af8819479449",
+        "type": "inject",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 490,
+        "y": 300,
+        "wires": [
+            [
+                "a9631340adf541fd"
+            ]
+        ]
+    },
+    {
+        "id": "36de4cb2022c8aed",
+        "type": "change",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$moment().format(\"YYYY/MM/DD     HH:mm\")",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 640,
+        "wires": [
+            [
+                "fe26180b170f25a4"
+            ]
+        ]
+    },
+    {
+        "id": "fe26180b170f25a4",
+        "type": "ui_text",
+        "z": "fb7c487202fe7137",
+        "group": "18c7329fbc9c91da",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Date and Time",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "20",
+        "color": "#1e25f6",
+        "x": 980,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6687bc460d11f03b",
+        "type": "ui_chart",
+        "z": "fb7c487202fe7137",
+        "name": "",
+        "group": "0e9e3c4a782e1e1a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "Asset Exchange chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 860,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0e53b31a036f03e5",
+        "type": "function",
+        "z": "fb7c487202fe7137",
+        "name": "Store function",
+        "func": "// Retrieve the existing array from global context, or create a new one if it doesn't exist\nvar details = global.get(\"details\") || [];\n\n// Format the date and time\nvar now = new Date();\nvar year = now.getFullYear();\nvar month = String(now.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed\nvar day = String(now.getDate()).padStart(2, '0');\nvar hours = String(now.getHours()).padStart(2, '0');\nvar minutes = String(now.getMinutes()).padStart(2, '0');\n\n// Create the formatted string: \"YYYY-MM-DD HH:MM\"\nvar formattedTimestamp = `${year}-${month}-${day} ${hours}:${minutes}`;\n\n// Store the detail as a string in the desired format\nvar formattedDetail = `${msg.payload} - ${formattedTimestamp}`;\ndetails.push(formattedDetail);\n\n// Save the updated array back to global context\nglobal.set(\"details\", details);\n\n// Pass the message along (optional)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bef39e8e30e40bae",
+        "type": "function",
+        "z": "fb7c487202fe7137",
+        "name": "function 1",
+        "func": "// Retrieve the stored details from the global context\nvar details = global.get(\"details\") || [];\n\n// Replace unwanted content with \"Asset Date and Time\"\nfor (var i = 0; i < details.length; i++) {\n    if (details[i] === \"Asset\") {\n        details[i] = \"Date and Time\";\n    }\n}\n\n// Join the details into a single string, with each detail on a new line\nmsg.payload = details.join(\"\\n\");\n\n// Pass the message along\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 780,
+        "wires": [
+            [
+                "431f13eaa49a82d5"
+            ]
+        ]
+    },
+    {
+        "id": "431f13eaa49a82d5",
+        "type": "ui_text",
+        "z": "fb7c487202fe7137",
+        "group": "8d0e543e1ff65ee9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "    ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "14",
+        "color": "#000000",
+        "x": 690,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "98471925428468bd",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "18c7329fbc9c91da",
+        "type": "ui_group",
+        "name": "Asset Details",
+        "tab": "69f7af703ed62e1c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d49e107d4fa13e2a",
+        "type": "ui_group",
+        "name": "Connection",
+        "tab": "69f7af703ed62e1c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0e9e3c4a782e1e1a",
+        "type": "ui_group",
+        "name": "Asset Tracking Details",
+        "tab": "69f7af703ed62e1c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8d0e543e1ff65ee9",
+        "type": "ui_group",
+        "name": "Log",
+        "tab": "69f7af703ed62e1c",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69f7af703ed62e1c",
+        "type": "ui_tab",
+        "name": "Asset Tracking HOME Page",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=FB3 Pin=C17-1
+Removed Pin From Net: NetName=FB3 Pin=C24-2
+Removed Pin From Net: NetName=FB3 Pin=FB1-1
+Removed Pin From Net: NetName=FB3 Pin=FB2-1
+Removed Pin From Net: NetName=FB3 Pin=U1-39
+Change Net Name : Old Net Name=+12V New Net Name=V_SEC_IN
+Change Net Name : Old Net Name=+12V_IN New Net Name=V_IN
+Added Pin To Net: NetName=VCC Pin=C17-1
+Added Pin To Net: NetName=VCC Pin=C24-2
+Added Pin To Net: NetName=VCC Pin=FB1-1
+Added Pin To Net: NetName=VCC Pin=FB2-1
+Added Pin To Net: NetName=VCC Pin=U1-39
+Added Net: Name=VCC

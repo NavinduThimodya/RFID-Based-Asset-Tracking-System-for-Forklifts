@@ -1,0 +1,2 @@
+Change Component Comment : Designator=C15 Old Comment=1000uF New Comment=1000pF
+Added Member To Class: ClassName=U_Power_Circuit Member=Component J101 Switch

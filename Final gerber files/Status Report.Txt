@@ -1,0 +1,45 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCB_Project.PrjPcb]
+   Generated File[RFID_withESP32_PCB.GTO]
+   Generated File[RFID_withESP32_PCB.GTP]
+   Generated File[RFID_withESP32_PCB.GTS]
+   Generated File[RFID_withESP32_PCB.GTL]
+   Generated File[RFID_withESP32_PCB.GBL]
+   Generated File[RFID_withESP32_PCB.GBS]
+   Generated File[RFID_withESP32_PCB.GBP]
+   Generated File[RFID_withESP32_PCB.GBO]
+   Generated File[RFID_withESP32_PCB.GM1]
+   Generated File[RFID_withESP32_PCB.GM2]
+   Generated File[RFID_withESP32_PCB.GM3]
+   Generated File[RFID_withESP32_PCB.GM4]
+   Generated File[RFID_withESP32_PCB.GM5]
+   Generated File[RFID_withESP32_PCB.GM6]
+   Generated File[RFID_withESP32_PCB.GM7]
+   Generated File[RFID_withESP32_PCB.GM8]
+   Generated File[RFID_withESP32_PCB.GM11]
+   Generated File[RFID_withESP32_PCB.GM12]
+   Generated File[RFID_withESP32_PCB.GM13]
+   Generated File[RFID_withESP32_PCB.GM15]
+   Generated File[RFID_withESP32_PCB.GM16]
+   Generated File[RFID_withESP32_PCB.GM19]
+   Generated File[RFID_withESP32_PCB.GM20]
+   Generated File[RFID_withESP32_PCB.GM21]
+   Generated File[RFID_withESP32_PCB.GM23]
+   Generated File[RFID_withESP32_PCB.GM24]
+   Generated File[RFID_withESP32_PCB.GKO]
+   Generated File[RFID_withESP32_PCB.GPT]
+   Generated File[RFID_withESP32_PCB.GPB]
+   Generated File[RFID_withESP32_PCB.1]
+   Generated File[RFID_withESP32_PCB.GML]
+   Generated File[RFID_withESP32_PCB.GD1]
+   Generated File[RFID_withESP32_PCB.GG1]
+   Generated File[RFID_withESP32_PCB.GM]
+   Generated File[RFID_withESP32_PCB.EXTREP]
+   Generated File[RFID_withESP32_PCB.REP]
+
+
+Files Generated   : 36
+Documents Printed : 0
+
+Finished Output Generation At 10:25:16 AM On 4/15/2024

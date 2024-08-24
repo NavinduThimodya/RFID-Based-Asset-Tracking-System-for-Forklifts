@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetR2_1 Pin=TP7-1
+Removed Member From Class: ClassName=U_RFID_Reader Member=TP7
+Added Pin To Net: NetName=NetC2_2 Pin=TP7-1
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP7 RX

@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: RFID_withESP32_PCB.PcbDoc   4/15/2024  1:00:22 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : RFID_withESP32_PCB-Plated.TXT
+ASCII Non-Plated RoundHoles File : RFID_withESP32_PCB-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             16        PTH        16.50mm (0.65inch)
+T2      0.5mm (20mil)                                             Round             107       PTH        713.60mm (28.09inch)
+T3      0.5mm (20mil)                                             Round             41        PTH        457.18mm (18.00inch)
+T4      0.95mm (37mil)                                            Round             2         PTH        5.00mm (0.20inch)
+T5      1mm (39mil)                                               Round             14        PTH        190.21mm (7.49inch)
+T6      1.05mm (41mil)                                            Round             4         PTH        39.63mm (1.56inch)
+T7      1.6mm (63mil)                                             Round             4         PTH        54.81mm (2.16inch)
+T8      3mm (118mil)                                              Round             4         NPTH       390.02mm (15.36inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              192
+
+Total Processing Time (hh:mm:ss) : 00:00:00

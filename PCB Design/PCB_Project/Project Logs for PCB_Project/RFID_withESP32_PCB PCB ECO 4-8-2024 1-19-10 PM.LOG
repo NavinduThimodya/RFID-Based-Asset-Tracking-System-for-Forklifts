@@ -1,0 +1,63 @@
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C1
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C1
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C2
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C3
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C7
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C8
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C8
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C13
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C21
+Removed Member From Class: ClassName=U_RFID_Reader Member=C21
+Removed Member From Class: ClassName=U_RFID_Reader Member=C25
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C27
+Removed Member From Class: ClassName=U_Power_Circuit Member=D3
+Removed Member From Class: ClassName=U_RFID_Reader Member=D3
+Removed Member From Class: ClassName=U_Power_Circuit Member=L3
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=R1
+Removed Member From Class: ClassName=U_Outputs Member=R1
+Removed Member From Class: ClassName=U_RFID_Reader Member=R1
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=R2
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=R4
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=R5
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=TP3
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=TP4
+Removed Member From Class: ClassName=U_Power_Circuit Member=TP7
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP11
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C3 10uF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C4 0.1uF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C5 100nF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C6 100nF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C7 33pF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C9 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C13 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C14 10uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C15 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C16 10uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C18 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C19 1000pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C20 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C22 100pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C23 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C24 220pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C26 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C28 100pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C29 NC
+Added Member To Class: ClassName=U_Power_Circuit Member=Component D1 CMS06(TE12L,Q,M)
+Added Member To Class: ClassName=U_RFID_Reader Member=Component D2 Power-LED
+Added Member To Class: ClassName=U_Outputs Member=Component D4 RS1M
+Added Member To Class: ClassName=U_Power_Circuit Member=Component J1 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=U_Power_Circuit Member=Component L1 SRR1210-101M
+Added Member To Class: ClassName=U_RFID_Reader Member=Component R3 10R
+Added Member To Class: ClassName=U_RFID_Reader Member=Component R6 1.7K
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component R7 1.5
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component R8 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component R9 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component R10 1.5
+Added Member To Class: ClassName=U_Outputs Member=Component R11 10R
+Added Member To Class: ClassName=U_Outputs Member=Component R12 220R
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component SW2 RESET Button
+Added Member To Class: ClassName=U_Power_Circuit Member=Component TP2 GND
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP5 TX1_POST
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP6 TX1_PRE
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP8 TGND
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP10 TX2_PRE

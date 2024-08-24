@@ -1,0 +1,136 @@
+Removed Pin From Net: NetName=FB3 Pin=DS2-1
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C7
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C7
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C11
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C15
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C16
+Removed Member From Class: ClassName=U_Antenna_Matching_Circuit Member=C18
+Removed Member From Class: ClassName=U_Power_Circuit Member=C21
+Removed Member From Class: ClassName=U_RFID_Reader Member=C23
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C26
+Removed Member From Class: ClassName=U_Power_Circuit Member=C27
+Removed Member From Class: ClassName=U_RFID_Reader Member=C28
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=C29
+Removed Member From Class: ClassName=U_RFID_Reader Member=C29
+Removed Member From Class: ClassName=U_Power_Circuit Member=DS2
+Removed Member From Class: ClassName=U_RFID_Reader Member=DS2
+Removed Member From Class: ClassName=U_Outputs Member=DS3
+Removed Member From Class: ClassName=U_Power_Circuit Member=R9
+Removed Member From Class: ClassName=U_RFID_Reader Member=R9
+Removed Member From Class: ClassName=U_ESP32-WROOM-32 Member=R10
+Removed Member From Class: ClassName=U_RFID_Reader Member=R10
+Removed Member From Class: ClassName=U_Power_Circuit Member=TP8
+Removed Member From Class: ClassName=U_Power_Circuit Member=TP9
+Change Component Designator: OldDesignator=Boot NewDesignator=SW1
+Change Component Designator: OldDesignator=D2 NewDesignator=D4
+Change Component Designator: OldDesignator=Power NewDesignator=J1
+Change Component Designator: OldDesignator=Reset NewDesignator=SW2
+Change Component Designator: OldDesignator=Switch NewDesignator=J2
+Added Component: Designator=D2(WL-TMRW_D5.8H11.7)
+Add component (AddParameter): Name = "Case/Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dominant Wavelength"; Value = "465nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "100mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "2.7V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Size"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Circular, Clear, Round"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Luminous Intensity"; Value = "2cd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Reverse Voltage (DC)"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "29717816"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Wavelength"; Value = "461nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "45°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength"; Value = "465nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5mm"; VariantName = "[No Variations]"
+Added Component: Designator=D3(FP-6_544-5255_01-4-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dominant Wavelength"; Value = "575nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "2mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.9V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Size"; Value = "3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Circular, Colored, Diffused, Dome, Round"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Transparency"; Value = "Diffused"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Luminous Intensity"; Value = "1.2mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "100°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "20mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "55433990"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Elements"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of LEDs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "20mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Voltage"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Schedule B"; Value = "8541402000, 8541402000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "2mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "50°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "2.4V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength"; Value = "575nm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FB3 Pin=D2-2
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD4_2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R3-1
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R11-1
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=MD1-16
+Added Net: Name=NetD3_2
+Added Member To Class: ClassName=U_Power_Circuit Member=Component C1 470uF
+Added Member To Class: ClassName=U_Power_Circuit Member=Component C2 330uF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C3 10uF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C4 0.1uF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C5 100nF
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component C6 100nF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C7 33pF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C8 33pF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C10 10uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C11 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C12 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C14 10uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C15 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C16 10uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C17 0.1uF
+Added Member To Class: ClassName=U_RFID_Reader Member=Component C19 1000pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C20 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C22 100pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C23 NC
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C24 220pF
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component C25 220pF
+Added Member To Class: ClassName=U_Power_Circuit Member=Component D1 CMS06(TE12L,Q,M)
+Added Member To Class: ClassName=U_RFID_Reader Member=Component D2 POWER-LED
+Added Member To Class: ClassName=U_Outputs Member=Component D3 TLLG4400
+Added Member To Class: ClassName=U_RFID_Reader Member=Component FB2 HZ0805B272R-10
+Added Member To Class: ClassName=U_RFID_Reader Member=Component L3 560nH
+Added Member To Class: ClassName=U_Power_Circuit Member=Component R1 2K
+Added Member To Class: ClassName=U_ESP32-WROOM-32 Member=Component R2 1K
+Added Member To Class: ClassName=U_RFID_Reader Member=Component R3 10R
+Added Member To Class: ClassName=U_RFID_Reader Member=Component R4 10K
+Added Member To Class: ClassName=U_RFID_Reader Member=Component R5 1.0K
+Added Member To Class: ClassName=U_RFID_Reader Member=Component R6 1.7K
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component R7 1.5
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component R8 NC
+Added Member To Class: ClassName=U_Power_Circuit Member=Component TP1 12V_IN
+Added Member To Class: ClassName=U_Power_Circuit Member=Component TP2 GND
+Added Member To Class: ClassName=U_Power_Circuit Member=Component TP3 12V
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP5 TX1_POST
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP6 TX1_PRE
+Added Member To Class: ClassName=U_Antenna_Matching_Circuit Member=Component TP7 TGND

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\UserUser.DESKTOP-VSEAMRA\Videos\RFID Based Asset Tracking Project\PCB Design\PCB_Project\RFID_withESP32_PCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=rfid_withesp32_pcb-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=rfid_withesp32_pcb-nonplated.txt|DrillLayers=gtl,gbl

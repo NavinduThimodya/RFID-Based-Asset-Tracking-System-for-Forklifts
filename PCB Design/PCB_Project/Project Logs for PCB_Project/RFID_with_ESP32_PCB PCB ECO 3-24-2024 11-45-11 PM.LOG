@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=C7 Old Footprint=FP-CC0805-0_1-0_7-IPC_A New Footprint=FP-CC0805-0_1-0_7-MFG
+Add Net: Net with name "GND" already exists

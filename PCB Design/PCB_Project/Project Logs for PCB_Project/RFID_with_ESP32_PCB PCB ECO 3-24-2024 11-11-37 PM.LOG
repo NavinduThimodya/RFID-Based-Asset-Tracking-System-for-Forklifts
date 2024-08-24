@@ -1,0 +1,5 @@
+Added Component: Designator=C?(CAPC1005X55X30LL05T10)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402C104K4RACTU"; VariantName = "[No Variations]"
+Add Net: Net with name "GND" already exists
+Added Member To Class: ClassName=U_Power_Circuit Member=Component C? C0402C104K4RACTU
