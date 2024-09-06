@@ -42,6 +42,10 @@ This project aims to develop an RFID-based asset tracking device for forklifts, 
 
 For a more detailed description of the project, including design specifications, circuit diagrams, and enclosure designs, please refer to the project's design document.
 
+#### Achieving recognition as one of the top 3 projects in the module highlights my ability to deliver high-quality solutions that meet both technical and practical challenges. This accomplishment reflects my commitment to innovation, precision, and impactful engineering design.
+
+![](Images/1.png)
+
 * * *
 
 #### Enclosure Design:
